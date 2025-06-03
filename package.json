@@ -3,19 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "@discordjs/voice": "^0.18.0",
-    "@types/node": "^22.15.29",
-    "axios": "^1.9.0",
-    "axos": "^0.0.1",
-    "discord.js-selfbot-v13": "^3.6.1",
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2"
+    "discord.js-selfbot-v13": "^3.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29"
   }
 }
